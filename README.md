@@ -1,1 +1,1 @@
-My learning of using React Hooks as well as practice using react Context API -- will fill out more as project goes
+My learning of using React Hooks as well as practice using react Context API -- Currently between jobs so what better time to keep track of expenses then to learn, practice and be poor all at the same time?
