@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "./AddTransaction.css";
 
 export const AddTransaction = () => {
   const [text, setText] = useState("");
@@ -17,10 +18,7 @@ export const AddTransaction = () => {
           />
         </div>
         <div className="form-control">
-          <label htmlFor="amount">
-            Amount <br />
-            (negative - expense, positive - income)
-          </label>
+          <label htmlFor="amount">Amount</label>
           <input
             type="number"
             value={amount}
