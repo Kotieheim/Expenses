@@ -14,6 +14,7 @@ input[type="number"] {
 }
 
 .btn {
+  font-weight: bold;
   display: block;
   cursor: pointer;
   background-color: #f5ba3a;
