@@ -1,19 +1,11 @@
 import React from "react";
-import "./Transaction.css";
 
-export default function Transaction() {
+export const Transaction = ({ transaction }) => {
   return (
-    <div>
-      <div className="transaction">
-        <li class="minus">
-          Cash <span>-$ (placeholder)</span>
-          <button class="delete-btn">x</button>
-        </li>
-        <li class="minus">
-          Cash <span>-$ (placeholder)</span>
-          <button class="delete-btn">x</button>
-        </li>
-      </div>
-    </div>
+    <li className="plus">
+      {transaction.text}
+      <span>-$400</span>
+      <button className="delete-btn">x</button>
+    </li>
   );
-}
+};
