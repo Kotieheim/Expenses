@@ -5,7 +5,7 @@ export const Balance = () => {
   const { transactions } = useContext(GlobalContext);
 
   const amounts = transactions.map(money => money.amount);
-  // console.log(amounts);
+  console.log(amounts);
   const total = amounts.reduce((a, b) => a + b, 0).toFixed(2);
   // console.log(total);
   return (
