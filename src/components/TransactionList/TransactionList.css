@@ -12,13 +12,9 @@
   position: relative;
   padding: 10px 30% 10px 10px;
   margin: 10px 0;
-}
-
-.list li.plus {
-  border-right: 25px solid green;
-}
-.list li.minus {
-  border-right: 25px solid green;
+  -webkit-box-shadow: 3px 4px 10px -2px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 3px 4px 10px -2px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 4px 10px -2px rgba(0, 0, 0, 0.75);
 }
 
 /* .list li.plus {

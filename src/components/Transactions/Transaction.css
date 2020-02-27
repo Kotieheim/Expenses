@@ -1,0 +1,6 @@
+.list li.plus {
+  border-right: 25px solid rgb(0, 170, 0);
+}
+.list li.minus {
+  border-right: 25px solid rgb(212, 0, 0);
+}
