@@ -5,22 +5,30 @@ import { TransactionList } from "./components/TransactionList/TransactionList";
 import { IncomeVsExpense } from "./components/IncomeExpense/IncomeVsExpense";
 import { AddTransaction } from "./components/AddTransaction/AddTransaction";
 import { GlobalProvider } from "./context/GlobalState";
+
+import { useTheme } from "./context/ThemeContext";
+import Wrapper from "./wrapper";
 import "./App.css";
 
-function App() {
+const App = () => {
+  const themeState = useTheme();
   return (
-    <GlobalProvider>
-      <div className="App">
-        <Header />
-        <div className="container">
-          <Balance />
-          <IncomeVsExpense />
-          <TransactionList />
-          <AddTransaction />
+    <Wrapper>
+      <GlobalProvider>
+        <div className="App">
+          <button onClick={() => themeState.toggle()}>Toggle Theme</button>
+
+          <div className="container">
+            <Header />
+            <Balance />
+            <IncomeVsExpense />
+            <TransactionList />
+            <AddTransaction />
+          </div>
         </div>
-      </div>
-    </GlobalProvider>
+      </GlobalProvider>
+    </Wrapper>
   );
-}
+};
 
 export default App;

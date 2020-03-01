@@ -17,44 +17,6 @@
   box-shadow: 3px 4px 10px -2px rgba(0, 0, 0, 0.75);
 }
 
-/* .list li.plus {
-  position: relative;
-
-  overflow: hidden;
-}
-.list li.plus:before {
-  content: "";
-  position: absolute;
-  left: 45%;
-  width: 100%;
-  height: 200%;
-  background-color: rgb(255, 255, 255);
-  background-color: #2ecc71;
-  top: 0;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  transform: rotate(320deg);
-}
-
-.list li.minus {
-  position: relative;
-
-  overflow: hidden;
-}
-.list li.minus:before {
-  content: "";
-  position: absolute;
-  left: 45%;
-  width: 100%;
-  height: 200%;
-  background-color: rgb(255, 255, 255);
-  background-color: #c72d2d;
-  top: 0;
-  -webkit-transform: rotate(45deg);
-  -moz-transform: rotate(45deg);
-  transform: rotate(320deg);
-} */
-
 .delete-btn {
   background-color: #4595d6;
   cursor: pointer;

@@ -1,5 +1,5 @@
 import React from "react";
-import "./Header.css";
+// import "./Header.css";
 
 export const Header = () => {
   return <h2 className="title">Mo Money</h2>;
