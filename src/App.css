@@ -14,13 +14,6 @@ body {
   margin: 0;
 }
 
-.container {
-  border: 1px solid gold;
-  margin: 30px auto;
-  width: 320px;
-  padding: 15px;
-  border-radius: 15px;
-}
 #balance {
   letter-spacing: 1px;
   margin: 0px;
@@ -35,9 +28,11 @@ h3 {
 h4 {
   margin: 0;
 }
-
-input {
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+.toggle-btn {
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+  padding: 7px;
 }
 
 @media only screen and (min-width: 600px) {

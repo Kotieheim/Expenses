@@ -1,5 +1,4 @@
 .inc-exp-container {
-  background-color: #fff;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -20,10 +19,4 @@
   font-size: 24px;
   letter-spacing: 1px;
   margin: 5px 0;
-}
-.money.plus {
-  color: #2ecc71;
-}
-.money.minus {
-  color: #c0392b;
 }

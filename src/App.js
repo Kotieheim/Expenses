@@ -16,7 +16,9 @@ const App = () => {
     <Wrapper>
       <GlobalProvider>
         <div className="App">
-          <button onClick={() => themeState.toggle()}>Toggle Theme</button>
+          <button className="toggle-btn" onClick={() => themeState.toggle()}>
+            Toggle Theme
+          </button>
 
           <div className="container">
             <Header />
