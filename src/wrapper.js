@@ -1,7 +1,7 @@
 import styled from "@emotion/styled";
 
 const Wrapper = styled("div")`
-  padding-top: 10%;
+  padding-top: 5%;
   background: ${props => props.theme.background};
   width: 100vw;
   height: 100vh;
